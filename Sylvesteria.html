@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <title>Sylvesteria</title>
+        <style>           
+            html {
+              background-color: rgb(221, 0, 255); /* This colors the entire viewport/margins */
+            }
+            body {
+                
+              background-color: #FFFFFF; /* This colors the main content area white */
+              width : 70%;
+              /* Ensure padding and border are also managed if needed */
+                margin:auto;
+                font-family: "Arial";
+                background-color: rgb(255, 255, 255);
+                text-align: center;
+            }
+            .head {
+                text-align: center;
+                background-color: rgb(0,0,255);
+            }
+            .menu {
+                background-color: rgb(255, 255, 255);
+                font-family:serif;
+                width: 100 pw;
+                overflow-x: auto;
+                white-space: nowrap;
+                overflow-y: hidden;
+                padding: 10px; 
+                margin: 20px;
+            }
+            .infobox {
+                text-align: center;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            textarea {
+                width :220px;
+                height: 22px;
+                resize:none;
+                font-family:Arial;
+                font-size:18px;
+            }
+            ul {
+                list-style-type: none;
+            }
+            .foot {
+                background-color:rgb(0, 0, 255);
+                color:white;
+            }
+            .foot a {
+                color:rgb(255, 255, 255);
+            }
+            #fullscreen-icon{
+		    	cursor:pointer;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <!-- This is the head of the page.-->
+        <header class="head">
+            <h1>Sylvesteria</h1>
+            
+        </header>
+        <!-- This is the menu bar. -->
+        <nav class="menu">
+            <span id="fullscreen-icon" class="material-icons fullscreen-icon" onclick="open_in_fullscreen();">fullscreen</span>
+            <a href="#about">ABOUT</a>
+            <a href="#laws">LAWS</a>
+            <a href="#government">GOVERNMENT</a>
+            <a href="#organizations">ORGANIZATIONS</a>
+            HISTORY
+        </nav>
+        <!-- Main page body. -->
+        <main>
+        
+            <!-- This is about Sylvesteria.-->
+            <section id="about">
+                <h1>About Sylvesteria</h1>
+                <table class="infobox">
+                    <tbody>
+                        <tr>
+                            <td><h2 align="center">Sylvesteria</h2></td>
+                        </tr>
+                        <tr>
+                            <td><canvas id="sylvesteria" height="185"></canvas><br>Flag  of Sylvesteria (well,sort of)</td>
+                        </tr>
+                        <tr>
+                            <td><h2>Statistics</h2></td>
+                        </tr>
+                        <tr>
+                            <td>Area</td>
+                            <td>2,005,000 square miles</td>
+                        </tr>
+                        <tr>
+                            <td>Population</td>
+                            <td>195,000,000</td>
+                        </tr>
+                        <tr>
+                           <td>Capital</td>
+                            <td><a href="">San Vicente</a></td>
+                        </tr>
+                        <tr>
+                            <td>Official Languages</td>
+                            <td>English</td>
+                        </tr>
+                        <tr>
+                            <td>Official Religion</td>
+                            <td>Christianity</td>
+                        </tr>
+                        <tr>
+                            <td>Location (as of Feb 10, 2026)</td>
+                            <td>California, Nevada, Utah, Arizona, New Mexico, Texas, Virginia, West Virginia, Ohio, Indiana, Illinois</td>
+                        </tr>
+                        <tr>
+                            <td>Current leader</td>
+                            <td>King Jacob I (and the only)</td>
+                        </tr>
+                        <tr>
+                            <td>Government</td>
+                            <td>Monarchy</td>
+                        </tr>
+                        <tr>
+                            <td>Currency</td>
+                            <td>Sylvesterian dollar</td>
+                        </tr>
+                        <tr>
+                            <td><h2>History</h2></td>
+                        </tr>
+                        <tr>
+                            <td>Announced: May 19, 2024</td>
+                        </tr>
+                        <tr>
+                            <td>Established: May 30, 2024</td>
+                        </tr>
+                        <tr>
+                            <td>Named: July 9, 2024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <!-- These are the laws of Sylvesteria -->
+            <section id="laws">
+                <h1>Laws</h1>
+                For laws, go <a href="https://www.khanacademy.org/computer-programming/laws/4998825527328768" target="_blank">here.</a>
+                
+            </section>
+            <!-- This is the government of Sylvesteria -->
+            <section id="government">
+                <h1>Government</h1>
+                <h2>ROYAL BRANCH</h2>
+                King Jacob I<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Lord Chancellor Quigley Puffle-Popper<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chancellor Adam Sobart<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chancellor Silas Warren<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chancellor Harry Owen<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chancellor Sarah Suleiman<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chancellor Peter Marten<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chancellor Omar Zanter<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Archbishop Teddy Noble (head of church)<br>
+                
+                
+                <h2>LEGISLATIVE BRANCH (Parliament) (One-House)</h2>
+                &nbsp;&nbsp;&nbsp;&nbsp;Prime Minister (empty since May 4,2026, formerly Jackson Rockflopper)<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Speaker of the House Mike Tory<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;President William Arthur<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Secretary of the Treasury Sarah Suleiman<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Secretary of Government Relations Mike Rillian<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Secretary of Health Steve Marcho<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Secretary of Transportation Kenneth Hanson<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Superintendent of Education William Jarford<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Secretary of State Mark Jacobson<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Secretary of Peace Pamela Sanders<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Secretary of Forces/ Chief of the Army John Peterson<br>
+                <h2>JUDICIAL BRANCH(Supreme Court)</h2>
+                &nbsp;&nbsp;&nbsp;&nbsp;Chief Judge Frank Forest<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Judge Arthur Salva<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Judge Manny Jones<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Judge Ram Smith<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Judge Peter Pote<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Judge Benjamin Laurens<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Judge Sven Røgrød<br>
+                <article style="text-align:center;">
+                <h2>ROLES</h2>
+                <h3>ROYAL BRANCH</h3>
+                King: Basically everything! Word is law. Creates laws. Rules for 15 years.<br>
+                Lord Chancellor: Head advisor and messenger. King's pick.<br>
+                Chancellors: Messengers, advisors, and servant overseers. King's pick<br>
+                Head of Church: Head of the country's church. The current person picks their sucessor.<br>
+                <h3>LEGISLATIVE BRANCH</h3>
+                Prime Minister: First vote on laws and passer of laws, first to speak with criminals, and Lord Regent.<br>
+                President: Oversees money, the army, and all government services.<br>
+                Speaker of the House: Well, everyone knows!<br>
+                Electors: 7 of them per state or province.<br>
+                <h3>JUDICIAL BRANCH</h3>
+                Chief Judge: Head judge of a court (in the JUDICIAL section, the Supreme Court.)<br>
+                Judge: Judges in a court.
+                
+                
+                </article>
+    
+                
+                
+            </section>
+            <!-- Organizations -->
+            <section class="organizations">
+                <h1>Organizations</h1>
+                <!-- This link is not functional-->
+                <a href="https://khanacademy.org" target="_blank">Robin Hood Temporary Relief Program</a>
+    <p style="text-align:left;">&nbsp;&nbsp;&nbsp;&nbsp;The Robin Hood Temporary Relief Program is funded by taxes and can give people who qualify on certain conditions up to $100,000. This is NOT A loan, and maximum income is $25,000. Maximum credit score is 650. The application will ask for name, account number (if any, then paid in cash), adress, annual income, unemployment time (in months) if any at all, mouths to feed (household size), credit score, and ID (if any at all to verify that you are not a rich person). It is then converted into a score from 1 to 100 that determines how much money is made. If amounts inputted are exceeding maximum limit, the application will be flagged and sent to the Secretary of the Treasury to investigate the matter. If fraud has been discovered, the case will be sent over to Parliament and the Supreme Court to sentence the person behind the fraudulent application as the law says.</p>
+            </section>
+            <section id="history">
+     <div>
+    <h1>History</h1>
+    <h2>2024</h2>
+    <span>March. Peter Hatcher (and his family) moves from New York to West Hollywood, near Los Angeles. <br></span>
+    <span>April. Sheila Tubman, a Boston chef and aunt of Sheila Tubman, the "Cootie Queen", or, the "Raiip uwis duuvoi", as said in Bimfe, the native language of Sylvesteria, moves to Inglewood, where Jacob Sylvester (later King Jacob I, or in the tounge of the Sylvesterians, Loph Keduc), who is at that time a pastor at Bring Jesus Church (at age 9!!!) and Peter (at that time who resided with Jacob temporarily) live. She begins to torment Jacob and Peter.</span><br>
+    <span>May 19. Great Dog Affair, of which much is told in the Chronicles; Begin the Sylvester War.</span><br>
+    <span>May 20. Invasion of Inglewood; San Clemente Massacre;Police begin to hunt Jacob; Jacob flees to San Diego, where Katherine and Teddy Noble, pastors at Bring Jesus Church take care of him; Jackson Rockflopper and his friend Quigley Puffle-Poper rebel against Jacob.</span><br>
+    <span>May 21. Judah, brother of Jacob and accender the throne of Byzantium (also Duke of Hampton Roads) becomes a General and assists Jacob.<br></span>
+    <span>May 25. Jacob arrested and escapes; Founding of Kingdom of New York,later known as Bimfemepf or simply Sylvesteria; Howard Hatcher is killed in a massacre at West Hollywood.<br></span>
+    <span>May 29. Jacob reaches Washington; Parade of Independence in L.A. and New York City.<br></span>
+    <span>May 30. Jacob reaches New York City; Declaration of Independence and Inaugaration of Jacob I is signed by nine people, including US President Joe Biden and Jacob himself; Kingdom of New York is renamed Angeles; Capital is New York City; Realm is everything east of the Missisipi and north of the Ohio River and the Mason Dixon line, except Maine, but CA, NV, AZ, TX, NM, and UT was also part of Angeles.<br></span>
+    <span>June 4.Jacob leaves New York; Capital is Downey, aka King City.<br></span>
+    <span>July 9. Parliament (Qesmoenipv) is established; Flag is made; James Fargo is elected as Prime Minister.<br></span>
+    <span>July 10. Anthem is Made; Angeles is renamed Sylvesteria.<br></span>
+    <span>September. First Judah Rebelion; Judah surrenders; he is pardoned.<br></span>
+    <span>October. James Fargo is bullied out of office because of race and age; William Phelps, a Belgian  ambassador <br></span>
+    <span> November 24. Capital of Sylvesteria is moved to Santa Monica.<br></span>
+    <h2>2025</h2>
+    <span>January 7. Jacob visits Waymer. He does nothing permanent. He found the pigeon lovers club, but it is secretly destroyed.<br></span>
+    <span>January 11-15. Palisade Fires; The Palace is burned partially; Jacob begins to find a new capital. <br></span>
+    <span>January 12. Jacob's 10th Birthday.<br></span>
+    <span>January 20. Donald Trump is inaugarated; the last act of Joe Biden was to loan the struglling country $1 trillion.<br></span>
+    <span>February. Begin building of San Vicente.<br></span>
+    <span>March 15. Begin March on Washington (military)<br></span>
+    <span>April 4. April Coup begins; Jackson Rockflopper invades the Palace, with James Fargo as his liuetenant.<br></span>
+    <span>April 28. Judah takes over the throne from Jackson and rules until Jacob returns.<br></span>
+    <span>May 1. Judah surrenders the throne.<br></span>
+    <span>May 19. Jacob's troops withdraw from Washington and Florida.<br></span>
+    <span>May 30. First Victory Day (Independence Day)<br></span>
+    <span>July 9. First Establishment Day (Anthem Day/Flag Day)<br></span>
+    <span>August 8. Jacob leaves Santa Monica for Washington; William Phelps is Lord Regent.<br></span>
+    <span>August 9. The August Revolution begins; William Phelps overthrows Jacob and creates a democracy.<br></span>
+    <span>August 26. Jackson Rockflopper goes over to Jacob's side; Jacob and Jackson defeat William Phelps; Sylvesteria is divided, with Jackson controlling the West and Sheila controlling the East.<br></span>
+    <span>September 3. Sheila is defeated; Jacob regains the throne; he returns from Washington; Jackson Rockflopper is promoted to Prime Minister.<br></span>
+    <span>September 5. William Phelps is executed.<br></span>
+    <span>October. Puncher Rebellion; Samuel "Puncher" Henry invades the palace for a few hours, but is defeated.<br></span>
+    <span>November 14. Jacob reaches Washington; begin Winter Revolution.<br></span>
+    <span>December 6. First battle of the Winter Revolution.<br></span>
+    <span>December 10. Jacob returns to Santa Monica.<br></span>
+    <span>December 24. Christmas Invasion.<br></span>
+    <span>December 31. Robin Hood Temporary Relief Program starts.<br></span>
+    <h2>2026</h2>
+    <span>January 7. Pigeon Day in Waymer is abolished by Jacob; Waymer Mayor is removed.<br></span>
+    <span>January 10. Palmer LaRue and his father, the new mayor of Waymer, is abducted.<br></span>
+    <span>January 11. Secret Shoot; Jacob interrupts it and frees the abductees.<br></span>
+    <span>January 12. Jacob's 11th Birthday; Capital moved to San Vicente.<br></span>
+    <span>January 30. Second Judah Rebellion begins; Jacob pursues Judah.<br></span>
+    <span>January 31. Jacob stops pursuing Judah; Jacob is killed with an arrow; Judah gains the throne.<br></span>
+    <span>February 1. Jacob comes back to life; Jacob flees to New York.<br></span>
+    <span>February 2. Judah gives up the throne out of boredom.<br></span>
+    <span>February 12. Treaty of Potomac signed.<br></span>
+    <span>February 14. Jacob returns to San Vicente; William Hermosa, leader of Liberal forces, is hanged with Sheila Tubman; Coins begin to be minted; the Sylvester War goes into sleep.<br></span>
+    <span>February 16. Oz is conquered.<br></span>
+    <span>March 20. 4-Day War begins.<br></span>
+    <span>March 24. 4-Day War ends; Russia is conquered.<br></span>
+    <span>April 15.Trump is arrested; the Sylvester War is activated; the Pentagon raises an army later known as the "Vsanqtsicmit".<br></span>
+    <span>April 19. Passing of Lurline.<br></span>
+    <span>April 21. Jacob is arrested in Quadling City and sent to San Vicente; Lurline comes back; Sheila Tubman is by magic duplicated and turned into a fairy; the Palace sinks, also by magic.<br></span>
+    <span>April 22. Palace is recovered; Jacob is released.<br></span>
+    <span>April 24. Trump escapes; the Vsanqtsicmit re-conquer the White House.<br></span>
+    <span>April 25. Jacob leaves San Vicente; Trump has an assasunation attempt.<br></span>
+    <span>April 26. The Vsanqtsicmit arrive in Chicago and New York; Jacob reaches Chicago.<br></span>
+    <span>April 27. Brad Kensington, Cheif of American Police, is executed; <br></span>
+    <span><br></span>
+    <span><br></span>
+    <span><br></span>
+    <span><br></span>
+    <span><br></span>
+    <span><br></span>
+    <span><br></span>
+    <span><br></span>
+    <span><br></span>
+    <span><br></span>
+    <span><br></span>
+    <span><br></span>
+    <span><br></span>
+    <span><br></span>
+    <span><br></span>
+    <span><br></span>
+    <span><br></span>
+    <span><br></span>
+</div>         
+</section>
+        </main>
+        <!-- END -->
+        <footer class="foot">
+            <a href="https://www.khanacademy.org/computer-programming/link_redirector?url=https%3A%2F%2Fsylvesteria.org" target="_blank">About</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://khanacademy.org" target="_blank">Robin Hood Temporary Relief Program</a>
+        </footer>
+        <!-- To get the image of course: this is not an image that a person just uploads from the web! -->
+        <script>function canvas() {
+    KAInfiniteLoopProtect();
+    var canvas = document.getElementById('sylvesteria');
+    var ctx = canvas.getContext('2d');
+    var textSet = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\u0101\u0103\u0105\u01ce\u01df\u01e1\u01e3\u0201\u0203\u0107\u0109\u010b\u010d\u010f\u0111\u0113\u0115\u0117\u0119\u011b\u0205\u0207\u011d\u011f\u0121\u0123\u01e5\u01e7\u01f5\u0125\u0127\u0129\u012b\u012d\u012f\u0131\u01d0\u0209\u0135\u0137\u01e9\u013a\u013c\u013e\u0140\u0142\u0144\u0146\u0148\u0149\u014b\u014d\u014f\u0151\u0153\u01d2\u01eb\u01ed\u0155\u0157\u0159\u015b\u015d\u015f\u0161\u0163\u0165\u0167\u0169\u016b\u016d\u016f\u0171\u0173\u01d4\u01d6\u01d8\u01da\u01dc\u0175\u0177\u017a\u017c\u017e\u0100\u0102\u0104\u0106\u0108\u010a\u010c\u010e\u0110\u0112\u0114\u0116\u0118\u011a\u011c\u011e\u0120\u0122\u0124\u0126\u0128\u012a\u012c\u012e\u0130\u0134\u0136\u0139\u013b\u013d\u013f\u0141\u0143\u0145\u0147\u014a\u014c\u014e\u0150\u0152\u0154\u0156\u0158\u015a\u015c\u015e\u0160\u0162\u0164\u0166\u0168\u016a\u016c\u016e\u0170\u0172\u0174\u0176\u0178\u0179\u017b\u017d\u0250\u0254\u01dd\u025f\u0183\u0265\u1d09\u027e\u029e\u026f\u0279\u0287\u028c\u028d\u028e\u03b1\u03b2\u03b3\u03b4\u03b5\u03b6\u03b7\u03b8\u03b9\u03ba\u03bb\u03bc\u03be\u03c0\u03c1\u03c3\u03c2\u03c4\u03c5\u03c6\u03c7\u03c8\u03c9\u0393\u0394\u0398\u039b\u039e\u03a0\u03a3\u03a6\u03a8\u03a9';
+    var getColorFromString = function (s) {
+        KAInfiniteLoopProtect();
+        KAInfiniteLoopProtect();
+        KAInfiniteLoopProtect();
+        var r = textSet.indexOf(s[0]);
+        var g = textSet.indexOf(s[1]);
+        var b = textSet.indexOf(s[2]);
+        var a = s.length >= 4 ? textSet.indexOf(s[3]) : 255;
+        return 'rgba(' + r + ',' + g + ',' + b + ',' + a / 255 + ')';
+    };
+    var newImage = function (data, resolution) {
+        KAInfiniteLoopProtect();
+        KAInfiniteLoopProtect();
+        KAInfiniteLoopProtect();
+        data = data.split('/');
+        var plot = data[0].split(',');
+        var colors = data[1].split(',');
+        var w = 0;
+        for (var i in plot) {
+            w = Math.max(w, plot[i].length);
+        }
+        var h = plot.length;
+        for (var i in colors) {
+            colors[i] = getColorFromString(colors[i]);
+        }
+        var res = resolution || Math.min(canvas.width / w, canvas.height / h);
+        res = Math.round(res);
+        var imgCanvas = document.createElement('canvas');
+        imgCanvas.width = w * res;
+        imgCanvas.height = h * res;
+        var imgCtx = imgCanvas.getContext('2d');
+        imgCtx.fillStyle = '#000000';
+        imgCtx.fillRect(0, 0, imgCanvas.width, imgCanvas.height);
+        for (var b in plot) {
+            for (var a in plot[b]) {
+                if (plot[b][a] !== '.') {
+                    imgCtx.fillStyle = colors[textSet.indexOf(plot[b][a])];
+                    imgCtx.fillRect(a * res, b * res, res, res);
+                }
+            }
+        }
+        return imgCanvas;
+    };
+    var sylvesteriaData = '00000000000000000000,00000000000000000000,00000000000000000000,00000000000000000000,11111111111111111111,1101010101010.010.0,00000000000000000000,11111111111111111111,22222222222222222222,22222222222222222222,22222222222222222222,22222222222222222222/\u011cO\u011c,\u03a9\u03a9\u03a9,00\u03a9';
+    var Sylvesteria = newImage(sylvesteriaData);
+    ctx.drawImage(Sylvesteria, 65, 0, 300, 180);
+    var canvas = document.getElementById('sylvesteria');
+    var dataURL = canvas.toDataURL('image/png');
+    console.log(dataURL);
+    var img = document.createElement('img');
+    img.src = dataURL;
+}
+canvas();</script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="">
+              function open_in_fullscreen(){
+                var Window = window.open();
+                Window.document.open();
+                Window.document.write(`
+                <!doctype html>
+                    <html>`+
+                        $("html").html()
+                    +`</html>        
+                    `);
+            }
+        </script>
+        
+            
+        
+                    </body></html>
